@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/main_.css" />
+    <script defer src="./src/js/index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <table style="width:100%;">
+      <tr>
+        <td >
+          <header class="header" style="background-color: yellow;">
+            <div class="logo">
+              <img
+                src="./src/images/yestoslide_all_logo.png"
+                alt="logo-image"
+                class="logo-image"
+              />
+            </div>
+            <div class="tools">
+              <div class="slide-tools">
+                <button
+                  class="tool-button"
+                  id="slide_back_btn"
+                  onclick="parent.handleSlideBtnClick(this.id)"
+                >
+                  <img
+                    src="./src/images/tool_box1/button-previous.svg"
+                    alt="slide-back"
+                  />
+                  <img
+                    src="./src/images/tool_box1/previous_slide_hover.svg"
+                    alt="previous_slide_hover"
+                  />
+                </button>
+                <button
+                  class="tool-button"
+                  id="slide_next_btn"
+                  onclick="parent.handleSlideBtnClick(this.id)"
+                >
+                  <img
+                    src="./src/images/tool_box1/button-next.svg"
+                    alt="slide-forward"
+                  />
+                  <img
+                    src="./src/images/tool_box1/next_slide_hover.svg"
+                    alt="next_slide_hover"
+                  />
+                </button>
+                <button
+                  class="control-button manual"
+                  id="slide_mode_select_btn"
+                  onclick="parent.handleSlideBtnClick(this.id)"
+                >
+                  <img
+                    src="./src/images/tool_box1/button-manual-slides-show.svg"
+                    alt="slide-control"
+                    class="slide-control"
+                  />
+                  <img
+                    src="./src/images/tool_box1/manual_hover.svg"
+                    alt="manual_hover"
+                  />
+                </button>
+                <button
+                  class="tool-button"
+                  id="settings_btn"
+                  onclick="parent.handleSlideBtnClick(this.id)"
+                >
+                  <img
+                    src="./src/images/tool_box1/button-settings.svg"
+                    alt="settings"
+                  />
+                  <img
+                    src="./src/images/tool_box1/settings_hover.svg"
+                    alt="settings_hover"
+                  />
+                </button>
+              </div>
+              <div class="basic-tools">
+                <button
+                  class="collecting-button off"
+                  id="collecting_btn"
+                  onclick="parent.handleBasicToolsClick(this.id)"
+                >
+                  <img
+                    src="./src/images/tool_box2/button_collecting_off.svg"
+                    alt="collecting"
+                    class="collecting-image"
+                  />
+                  <img
+                    src="./src/images/tool_box2/collecting_stop_hover.svg"
+                    alt="collecting_hover"
+                  />
+                </button>
+                <button
+                  class="tool-button section-tool-btn off"
+                  id="button_openfile"
+                  onclick="parent.handleBasicToolsClick(this.id)"
+                >
+                  <img
+                    src="./src/images/tool_box2/button_openfile_off.svg"
+                    alt="button-openfile-off-2"
+                  />
+                  <img
+                    src="./src/images/tool_box2/open_files_hover.svg"
+                    alt="open_files_hover"
+                  />
+                </button>
+                <button
+                  class="tool-button section-tool-btn off"
+                  id="button_images_videos"
+                  onclick="parent.handleBasicToolsClick(this.id)"
+                >
+                  <img
+                    src="./src/images/tool_box2/button_images_videos_off.svg"
+                    alt="button-images-videos-off-2"
+                  />
+                  <img
+                    src="./src/images/tool_box2/pictures_and_videos_hover.svg"
+                    alt="pictures_and_videos_hover"
+                  />
+                </button>
+                <button
+                  class="tool-button section-tool-btn off"
+                  id="button_makeavideo"
+                  style="margin: 0 1px"
+                  onclick="parent.handleBasicToolsClick(this.id)"
+                >
+                  <img
+                    src="./src/images/tool_box2/button_makeavideo_off.svg"
+                    alt="button-makeavideo-off-2"
+                  />
+                  <img
+                    src="./src/images/tool_box2/make_videos_hover.svg"
+                    alt="make_videos_hover"
+                  />
+                </button>
+                <button
+                  class="tool-button section-tool-btn off"
+                  id="button_participants"
+                  onclick="parent.handleBasicToolsClick(this.id)"
+                >
+                  <img
+                    src="./src/images/tool_box2/button_participants_off.svg"
+                    alt="button-participants-off-2"
+                  />
+                  <img
+                    src="src/images/tool_box2/participants_hover.svg"
+                    alt="participants_hover"
+                  />
+                </button>
+              </div>
+              <div class="lock-tools">
+                <button
+                  class="tool-button off"
+                  id="button_hideUI"
+                  onclick="parent.handleBasicToolsClick(this.id)"
+                >
+                  <img
+                    src="./src/images/tool_box2/button_hideUI_off.svg"
+                    alt="button-hideui-2"
+                  />
+                </button>
+              </div>
+            </div>
+          </header>
+        </td>
+      </tr>
+    </table>
+    
+
+
+    
+  </body>
+</html>
